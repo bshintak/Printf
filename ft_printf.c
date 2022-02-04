@@ -55,7 +55,7 @@ int	ft_start(const char *format, va_list args)
 	{
 		if (!format)
 			return (counter);
-		if (format[i] == '%' && format[i + 1] != '\0')
+		if (format[i] == '%')
 		{
 			i++;
 			if (ft_letters(format[i]))
