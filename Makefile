@@ -36,4 +36,4 @@ clean:
 fclean: clean
 	/bin/rm -f $(NAME)
 
-re: fclean all%
+re: fclean all
