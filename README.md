@@ -6,7 +6,7 @@
  [![Size](https://img.shields.io/github/repo-size/bshintak/Printf?color=blue&label=Size&logo=Size&style=?style=flat)](https://github.com/bshintak/Printf) 
  [![Activity](https://img.shields.io/github/last-commit/bshintak/Printf?color=red&label=Last%20Commit&style=flat)](https://github.com/bshintak/Printf)
 
-🗯️ Printf is a 42 school project.
+🗯️ Printf is a 42 school project. The goal of this project is to recode the printf().
 
 The instructions were given in the [subject](https://github.com/bshintak/Printf/blob/master/subject_printf.pdf).
 
