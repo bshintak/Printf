@@ -65,6 +65,8 @@ int	ft_printf_s(const char *format, ...)
 				ft_putnummm((long long int)va_arg(wtv, unsigned int), 16, &len, 2);
 			else if (*format == 'p')
 				ft_pointer((long long int)va_arg(wtv, unsigned long), 16, &len);
+			else if (*format == '%')
+				ft_putchar('%', &len);
 		}
 		else
 			len += write(1, format, 1);
@@ -96,5 +98,8 @@ int main ()
 	printf("--------------------------------\n");
 	ft_printf_s("%p\n", &pointer);
 	printf("%p\n", &pointer);
+	printf("--------------------------------\n");
+	ft_printf_s("%%\n");
+	printf("%%\n");
 	printf("--------------------------------\n");
 }
